@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'kr.counselor.cbt'
+ compileSdk 35
+ defaultConfig { applicationId 'kr.counselor.cbt'; minSdk 26; targetSdk 35; versionCode 7; versionName '1.2.2'; testInstrumentationRunner 'kr.counselor.cbt.SmokeInstrumentation' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}

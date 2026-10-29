@@ -1,0 +1,39 @@
+config.local.js
+dist/
+tmp/
+
+# Local Netlify folder
+.netlify
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+
+# --- Codex: GitHub upload exclusions ---
+**/node_modules/
+**/.gradle/
+**/.kotlin/
+**/.idea/
+**/build/
+**/.cxx/
+**/local.properties
+**/*.apk
+**/*.aab
+**/*.jks
+**/*.keystore
+**/*.zip
+**/*.tar.gz
+**/*.log
+**/*.iml
+**/*.img
+**/*.qcow2
+**/.obsidian/
+**/.netlify/
+/itcert-cbt/
+/itcert-cbt-work-20261024/
+/tmp/
+/releases/
+/dist/
+/시험 파일/
+/정답 파일/
+
